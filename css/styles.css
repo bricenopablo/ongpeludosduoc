@@ -1,0 +1,134 @@
+/* Importación fuente */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* Reseteo estilos generales*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-image: linear-gradient(to top, #e6dada, #27404609),url("https://cloudfront-us-east-1.images.arcpublishing.com/infobae/YTDAN2FVNFD4VESGR72RGW4LN4.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+main {
+  display: grid;
+  row-gap: 2rem;
+  width: 100%;
+  max-width: 600px;
+}
+
+.item {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  padding: 1rem 0.8rem;
+  border-radius: 0.7rem;
+  background-color: #fff;
+}
+
+.item h1,
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.item h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.item ul {
+  list-style: none;
+  display: grid;
+  row-gap: 0.5rem;
+}
+
+.item ul li {
+  font-weight: 500;
+}
+
+.contenedor-animales {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 2.5rem;
+}
+
+.seccion-animal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 250px;
+}
+
+.seccion-animal img, .item img {
+  width: 100%;
+}
+
+.seccion-animal a {
+  text-decoration: none;
+  color: #fff;
+  margin-top: 1rem;
+  padding: 0.5rem 5rem;
+  background-color: rgb(48, 228, 235);
+  border-radius: 0.7rem;
+  border: 2px solid rgb(48, 228, 235);
+  font-weight: 700;
+}
+
+.seccion-animal a:hover {
+  border: 2px solid rgb(48, 228, 235);
+  background-color: #fff;
+  color: rgb(48, 228, 235);
+}
+
+/* Css página de gatos y perros. */
+
+.navegacion {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navegacion a{
+    text-decoration: none;
+    color: #000;
+    border-bottom: 2px solid transparent;
+}
+
+.navegacion a:hover {
+    border-bottom: 2px solid rgb(48, 228, 235);
+}
+
+.img-animal {
+  border-radius: 0.7rem;
+}
+
+/* Estilos páginas personales. */
+
+.contenedor-general {
+    align-items: center;
+}
+
+.item img {
+    min-width: 100%;
+    max-width: 400px;
+}
+
+.item.personal {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
