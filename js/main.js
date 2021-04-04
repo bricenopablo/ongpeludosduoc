@@ -2,10 +2,10 @@ const gatos = [
 	{
 		nombre: 'Ginger',
 		imagen: './img/gatos/ginger.jpg',
-		edad: 5,
+		edad: 3,
 		raza: 'Michi',
 		sexo: 'Macho',
-		tamano: 'S',
+		tamano: 'B',
 		se_adapta: 'No',
 		con_ninos: 'No',
 		con_perros: 'Sí',
@@ -15,27 +15,27 @@ const gatos = [
 	{
 		nombre: 'Tommy',
 		imagen: './img/gatos/tommy.png',
-		edad: 5,
+		edad: 2,
 		raza: 'Michi',
 		sexo: 'Macho',
-		tamano: 'S',
-		se_adapta: 'No',
-		con_ninos: 'No',
+		tamano: 'M',
+		se_adapta: 'Sí',
+		con_ninos: 'Sí',
 		con_perros: 'Sí',
 		con_gatos: 'No',
-		energia: 'Alta'
+		energia: 'Baja'
 	},
 	{
 		nombre: 'Lucifer',
 		imagen: './img/gatos/lucifer.png',
-		edad: 5,
+		edad: 2,
 		raza: 'Michi',
 		sexo: 'Macho',
 		tamano: 'S',
-		se_adapta: 'No',
-		con_ninos: 'No',
+		se_adapta: 'Sí',
+		con_ninos: 'Sí',
 		con_perros: 'Sí',
-		con_gatos: 'No',
+		con_gatos: 'Sí',
 		energia: 'Alta'
 	}
 ];
@@ -43,47 +43,47 @@ const perros = [
 	{
 		nombre: 'Flaca',
 		imagen: './img/perros/flaca.png',
-		edad: 5,
-		raza: 'Michi',
+		edad: 8,
+		raza: 'Terrier',
 		sexo: 'Macho',
 		tamano: 'S',
-		se_adapta: 'No',
-		con_ninos: 'No',
-		con_perros: 'Sí',
+		se_adapta: 'Sí',
+		con_ninos: 'Sí',
+		con_perros: 'No',
 		con_gatos: 'No',
-		energia: 'Alta'
+		energia: 'Media'
 	},
 	{
 		nombre: 'Niña',
 		imagen: './img/perros/nina.png',
-		edad: 5,
-		raza: 'Michi',
-		sexo: 'Macho',
-		tamano: 'S',
-		se_adapta: 'No',
-		con_ninos: 'No',
+		edad: 10,
+		raza: 'Toller',
+		sexo: 'Hembra',
+		tamano: 'M',
+		se_adapta: 'Sí',
+		con_ninos: 'Sí',
 		con_perros: 'Sí',
-		con_gatos: 'No',
-		energia: 'Alta'
+		con_gatos: 'Sí',
+		energia: 'Baja'
 	},
 	{
 		nombre: 'Cachulo',
 		imagen: './img/perros/cachulo.png',
-		edad: 5,
-		raza: 'Michi',
+		edad: 6,
+		raza: 'Golden Retriever',
 		sexo: 'Macho',
-		tamano: 'S',
-		se_adapta: 'No',
-		con_ninos: 'No',
+		tamano: 'B',
+		se_adapta: 'Sí',
+		con_ninos: 'Sí',
 		con_perros: 'Sí',
 		con_gatos: 'No',
-		energia: 'Alta'
+		energia: 'Media'
 	}
 ];
 
 const ANIMALES_DIV = document.querySelector('#animales');
 
-const rellenar_animales = (array) => {
+const rellenarAnimales = (array) => {
 	array.forEach((animal) => {
 		ANIMALES_DIV.innerHTML += `
         <div class="col-sm-6 col-lg-3">
@@ -143,5 +143,5 @@ const rellenar_animales = (array) => {
 	});
 };
 
-rellenar_animales(gatos);
-rellenar_animales(perros);
+rellenarAnimales(gatos);
+rellenarAnimales(perros);
