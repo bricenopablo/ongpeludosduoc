@@ -2,13 +2,15 @@ ul {
 	list-style: none;
 	padding: 0;
 }
-a {
+.nav-link,
+.footer-link {
 	border: 2px solid transparent;
 	text-decoration: none;
 	color: #000;
 	transition: all 300ms;
 }
-a:hover {
+.nav-link:hover,
+.footer-link:hover {
 	color: #000;
 	border-bottom: 2px solid rgb(220, 77, 65);
 }
