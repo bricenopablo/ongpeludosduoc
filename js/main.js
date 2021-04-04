@@ -1,7 +1,7 @@
 const gatos = [
 	{
 		nombre: 'Ginger',
-		imagen: '/img/gatos/ginger.jpg',
+		imagen: '../img/gatos/ginger.jpg',
 		edad: 5,
 		raza: 'Michi',
 		sexo: 'Macho',
@@ -14,7 +14,7 @@ const gatos = [
 	},
 	{
 		nombre: 'Tommy',
-		imagen: '/img/gatos/tommy.png',
+		imagen: '../img/gatos/tommy.png',
 		edad: 5,
 		raza: 'Michi',
 		sexo: 'Macho',
@@ -27,7 +27,7 @@ const gatos = [
 	},
 	{
 		nombre: 'Lucifer',
-		imagen: '/img/gatos/lucifer.png',
+		imagen: '../img/gatos/lucifer.png',
 		edad: 5,
 		raza: 'Michi',
 		sexo: 'Macho',
@@ -42,7 +42,7 @@ const gatos = [
 const perros = [
 	{
 		nombre: 'Flaca',
-		imagen: '/img/perros/flaca.png',
+		imagen: '../img/perros/flaca.png',
 		edad: 5,
 		raza: 'Michi',
 		sexo: 'Macho',
@@ -55,7 +55,7 @@ const perros = [
 	},
 	{
 		nombre: 'Niña',
-		imagen: '/img/perros/nina.png',
+		imagen: '../img/perros/nina.png',
 		edad: 5,
 		raza: 'Michi',
 		sexo: 'Macho',
@@ -68,7 +68,7 @@ const perros = [
 	},
 	{
 		nombre: 'Cachulo',
-		imagen: '/img/perros/cachulo.png',
+		imagen: '../img/perros/cachulo.png',
 		edad: 5,
 		raza: 'Michi',
 		sexo: 'Macho',
