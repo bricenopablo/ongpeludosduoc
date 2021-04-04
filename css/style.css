@@ -1,0 +1,8 @@
+.card img {
+	max-height: 250px;
+	object-fit: cover;
+}
+#animales {
+	gap: 20px;
+	box-sizing: border-box;
+}
