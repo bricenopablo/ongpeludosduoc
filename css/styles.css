@@ -134,3 +134,56 @@ h2 {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
+.form__web {
+  font-family: "Poppins", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  padding: 1rem 0.8rem;
+  margin: auto;
+  border-radius: 0.7rem;
+  background-color: #fff;
+  margin-bottom: 5rem;
+}
+
+h4 {
+  text-align: justify;
+  margin: 0;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+}
+
+select {
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.botons {
+  text-decoration: none;
+  color: #fff;
+  margin-top: 1rem;
+  padding: 0.5rem 5rem;
+  background-color: rgb(48, 228, 235);
+  border-radius: 0.7rem;
+  border: 2px solid rgb(48, 228, 235);
+  font-weight: 700;
+}
+
+.botons:hover{
+  cursor: pointer;
+  border: 2px solid rgb(48, 228, 235);
+  background-color: #fff;
+  color: rgb(48, 228, 235);
+}
+
+p.centrado {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

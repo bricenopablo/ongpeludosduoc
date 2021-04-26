@@ -44,6 +44,29 @@
           </div>
         </div>
       </section>
+      <section class="form__web">
+        <form><h2>Formulario Contacto</h2>
+          <input class="controls" type="text" name="nombreCompleto" id="nombreCompleto" placeholder="Ingrese su Nombre Completo">
+          <input class="controls" type="email" name="correo" id="correo" placeholder="E-mail">
+          <h4>Documento</h4>
+          <select name="Tipo documento" id="documento">
+              <option value="Rut">Rut</option>
+              <option value="Pasaporte">Pasaporte</option>
+          </select>
+          <input class="controls" type="text" name="numeroDocumento" id="numeroDocumento" placeholder="Número Documento" maxlength="12">
+          <h4>Región</h4>
+          <select id="regiones"></select>
+          <select id="comunas"></select>
+          <input class="controls" type="tel" name="Teléfono" id="Teléfono" placeholder="Número Teléfonico" maxlength="15">
+          <textarea name="Comentario" placeholder="¿Por que le gustaria participar en la ONG?"></textarea>
+          <input class="botons" type="submit" id="botEnviar" value="Enviar">
+          <input class="botons" type="reset" id="botLimpiar" value="Limpiar">
+          <p class="centrado">
+            <img src="./img/formulario/perrogatoslove.svg" alt="img-perrogato" />
+          </p></form>
+      </section>
     </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
